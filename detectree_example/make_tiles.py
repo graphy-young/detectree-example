@@ -15,7 +15,10 @@ from rasterio import windows
 from rasterio.enums import Resampling
 from shapely import geometry
 
-from detectree_example import settings
+import sys
+sys.path.append('/content/drive/MyDrive/Colab Notebooks/detectree-example/detectree_example')
+import settings
+#from detectree_example import settings
 
 BASE_URI = "https://maps.zh.ch/download/orthofoto/sommer/2014/rgb/jpeg/"
 RESAMPLE_FACTOR = 5
