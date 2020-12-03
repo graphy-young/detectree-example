@@ -10,11 +10,11 @@ dependencies:
   - lastools
   - laszip
   - matplotlib
-  - numpy=1.16.4  
   - osmnx>=0.15
   - python-slugify  
   - pip
   - pip:
+    - numpy==1.19.3
     - detectree
     - -e .
   - rasterio
